@@ -1,0 +1,32 @@
+This document actually explain what this folder contains and what I have made during my journey of learning LangChain.
+
+--LANGUAGE MODELS--
+First we will work with models by getting API keys to access the models, then interacting with the models using an API and once we get the response from the model, we may perform some operations on that response.
+
+We will work with LLMS and Chat Models.
+
+LLMS are a bit outdated so we will just learn some basics about them.
+
+But, we will be working mostly with Chat Models.
+
+There are two types of chat models: open-source and closed-source.
+
+--CLOSED SOURCE MODELS--
+We have three main closed source models:
+1. ChatGPT from OpenAI
+2. Claude from Anthropic 
+3. Gemini from Google
+
+--OPEN SOURCE MODELS--
+There are a lot of open source models and we will access them using Hugging face which is the largest repository of open-source LLMs.
+
+There are two ways using which we can access open-source models from hugging face:
+1. Use of HF API
+2. Downloading the Model locally
+
+
+--EMBEDDING MODELS--
+Again, we have two main types of embedding models: open-source and closed-source.
+
+In this folder, we will only work with the OpenAI closed-source model and one other closed-source model.
+

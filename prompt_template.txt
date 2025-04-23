@@ -1,0 +1,17 @@
+Please generate {number} of questions on the following topic of Data Structures in Computer Science: {topic}.
+The style of the questions will be {style}.
+I want you to generate the questions in the following programming language: {programming_lang}.
+All of the questions should be {answer}
+The questions should we unique.
+I want you to test my {parameter}
+Should the questions be very tricky questions? {tricky}
+
+
+Different values for the parameters
+number: 1,2,5,10,15,20,30,50
+topic: Arrays, Stacks, Queues, Trees, Binary Trees, Graphs
+style: MCQS, Fill-in-the-blank, code-writing, code-output-tracing, code-fill-in-the-blanks, theorical
+programming_lang: C++, Python, Java, JavaScript
+answer: Yes, No
+parameter: understanding-based, knowledge-based
+tricky: Yes, No  

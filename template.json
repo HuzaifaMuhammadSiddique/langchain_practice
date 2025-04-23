@@ -1,0 +1,21 @@
+{
+    "name": null,
+    "input_variables": [
+        "answer",
+        "number",
+        "prog_lang",
+        "question_type",
+        "style",
+        "topic",
+        "tricky"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nPlease generate {number} of questions on the following topic of Data Structures in Computer Science: {topic}.\nThe style of the questions will be {style}.\nI want you to generate the questions in the following programming language: {prog_lang}.\nAll of the questions should be {answer}\nThe questions should we unique.\nI want you to test my {question_type}\nShould the questions be very tricky questions? {tricky}\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
